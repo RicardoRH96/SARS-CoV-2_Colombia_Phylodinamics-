@@ -1,2 +1,2 @@
 # SARS-CoV-2_Colombia_Phylodinamics-
-XMLs, Logs, Trees and other files for Phylodinamics, molecular and phylogeographic analysis of SARS-CoV-2 pandemic in Colombia
+Here you will find code, XMLs, Logs, Trees and other files generated for the Phylodinamic, molecular and phylogeographic tracking/analysis of SARS-CoV-2 pandemic in Colombia
