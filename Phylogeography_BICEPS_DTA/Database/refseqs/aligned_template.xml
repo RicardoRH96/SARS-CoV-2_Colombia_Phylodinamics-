@@ -1,0 +1,31 @@
+<beast>
+
+<!-- Alignment -->
+<data id="aligned" spec="Alignment" type="nucleotide">
+INSERT_ALIGNMENT_HERE
+</data>
+
+<!-- Codon 1 partition -->
+<data id="codon1" spec="FilteredAlignment" filter="INSERT_CODON1_FILTER_HERE">
+	<data idref="aligned"/>
+</data>
+
+<!-- Codon 2 partition -->
+<data id="codon2" spec="FilteredAlignment" filter="INSERT_CODON2_FILTER_HERE">
+	<data idref="aligned"/>
+</data>
+
+<!-- Codon 3 partition -->
+<data id="codon3" spec="FilteredAlignment" filter="INSERT_CODON3_FILTER_HERE">
+	<data idref="aligned"/>
+</data>
+
+<!-- Noncoding partition -->
+<data id="noncoding" spec="FilteredAlignment" filter="INSERT_NONCODING_FILTER_HERE">
+	<data idref="aligned"/>
+</data>
+
+<weightvector id="weightparameter" spec="parameter.IntegerParameter" dimension="4" estimate="false">INSERT_WEIGHTS_HERE</weightvector>
+
+
+</beast>
