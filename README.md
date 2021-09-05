@@ -9,6 +9,6 @@ Run with BEAST using the -DF option with our updated alignment defined in an JSO
 1) Run with BEAST 2.6.3pre
 
 ```
-/path/to/beast/bin/beast -DF ../sequences/easter.json ..SARS-CoV-2_Colombia_Phylodinamics-
+/path/to/beast/bin/beast -DF ../sequences/dataset.json ..SARS-CoV-2_Colombia_Phylodinamics-
 /BDSKL2.xml
 ```
