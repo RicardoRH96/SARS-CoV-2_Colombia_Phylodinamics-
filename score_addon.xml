@@ -12,6 +12,6 @@
 	   url="https://raw.githubusercontent.com/CompEvol/packages/main/Mascot/Mascot.v2.1.2.zip"
 	   description="Marginal approximation of the structured coalescent"
 	   projectURL="https://taming-the-beast.org/tutorials/Mascot-Tutorial/">
-		<depends on="beast2" atleast="2.5.0" atmost='2.6.9'/>
+		<depends on="beast2" atleast="2.5.0" atmost='2.7.5'/>
     </package>
 </packages>
